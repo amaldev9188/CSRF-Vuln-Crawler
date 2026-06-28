@@ -61,7 +61,7 @@ pip install Flask requests beautifulsoup4
 1. Keep the Flask web application running.
 2. In a separate terminal shell (with the virtual environment activated), run:
    ```bash
-   python crwaler.py
+   python crawler.py
    ```
 3. Enter the URL of the Flask app when prompted (e.g. `http://127.0.0.1:5000`).
 4. The script will analyze the forms on the page and output whether it is vulnerable or secure:
